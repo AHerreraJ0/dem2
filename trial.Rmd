@@ -1,0 +1,67 @@
+---
+title: "Econometría I: CORTE TRANSVERSAL"
+subtitle: "<small>Alejandro Herrera Jiménez (U.C.B.)  Semestre I-2023</small>"
+output: 
+  revealjs::revealjs_presentation:
+    theme: white
+    highlight: pygments
+    center: true    
+    self_contained: false
+    reveal_plugins: 
+     # - search
+      - zoom
+      - notes
+      - chalkboard
+      - menu
+    reveal_options:
+      chalkboard:
+        theme: chalkboard
+        toggleNotesButton: true
+      menu:
+        numbers: true
+      previewLinks: true  
+---
+
+# Horizontal Slide 1
+<h3>The Lorenz Equations</h3>
+
+$$y_i=\beta_0 + \beta_1 x_i + \varepsilon_i$$
+
+\begin{aligned}
+					  \dot{x} &amp; = \sigma(y-x) \\
+					  \dot{y} &amp; = \rho x - y - xz \\
+					  \dot{z} &amp; = -\beta z + xy
+\end{aligned} 
+					
+## Vertical Slide 1
+
+## Vertical Slide 2
+
+# Horizontal Slide 2
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+<small>This sentence will appear smaller.</small>
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Code and Output
+
+```{r}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
